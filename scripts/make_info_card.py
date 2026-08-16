@@ -31,12 +31,14 @@ ROWS: list[tuple[str, str]] = [
     ("", "Exchange semester — MCAST, Malta (2023)"),
     ("Focus", "Modern C++ for robotics · perception · control · embedded"),
     ("Lang", "C++ · Python · C · MATLAB"),
+    # Ligne d'honnêteté autant que de mise en avant : elle dit où en est
+    # vraiment le C++ plutôt que de le laisser sous-entendre par `Lang`.
+    ("Learning", "Modern C++ in depth, ahead of Cranfield's OOP module"),
     ("Tools", "OpenCV · YOLO/Ultralytics · NumPy · Git · Linux"),
     ("Boards", "Raspberry Pi · ESP32 · Arduino"),
     ("CAD/EDA", "SolidWorks · Inventor · KiCad · EasyEDA"),
     ("Built", "Vision-based screw sorter — YOLO11 on Pi 5, >95% acc."),
     ("", "team lead · 9-month engineering project"),
-    ("", "Budget tracker — C++, written from scratch"),
     # Aucune stack annoncée pour les deux applis qui suivent : elles ont été
     # largement générées par IA. Revendiquer Next.js ou Swift serait une ligne
     # indéfendable en entretien. On les décrit par ce qu'elles font.

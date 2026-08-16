@@ -68,26 +68,27 @@
   <text class="value" x="139.2" y="236.0" textLength="210.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">C++ · Python · C · MATLAB</text>
   </g>
   <g class="line" style="--d:0.49s">
-  <text class="label" x="30.0" y="267.0" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Tools</text>
-  <text class="value" x="139.2" y="267.0" textLength="394.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">OpenCV · YOLO/Ultralytics · NumPy · Git · Linux</text>
+  <text class="label" x="30.0" y="267.0" textLength="67.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Learning</text>
+  <text class="value" x="139.2" y="267.0" textLength="436.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Modern C++ in depth, ahead of Cranfield's OOP module</text>
   </g>
   <g class="line" style="--d:0.56s">
-  <text class="label" x="30.0" y="298.0" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Boards</text>
-  <text class="value" x="139.2" y="298.0" textLength="252.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Raspberry Pi · ESP32 · Arduino</text>
+  <text class="label" x="30.0" y="298.0" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Tools</text>
+  <text class="value" x="139.2" y="298.0" textLength="394.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">OpenCV · YOLO/Ultralytics · NumPy · Git · Linux</text>
   </g>
   <g class="line" style="--d:0.63s">
-  <text class="label" x="30.0" y="329.0" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">CAD/EDA</text>
-  <text class="value" x="139.2" y="329.0" textLength="327.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SolidWorks · Inventor · KiCad · EasyEDA</text>
+  <text class="label" x="30.0" y="329.0" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Boards</text>
+  <text class="value" x="139.2" y="329.0" textLength="252.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Raspberry Pi · ESP32 · Arduino</text>
   </g>
   <g class="line" style="--d:0.7s">
-  <text class="label" x="30.0" y="360.0" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Built</text>
-  <text class="value" x="139.2" y="360.0" textLength="445.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Vision-based screw sorter — YOLO11 on Pi 5, &gt;95% acc.</text>
+  <text class="label" x="30.0" y="360.0" textLength="58.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">CAD/EDA</text>
+  <text class="value" x="139.2" y="360.0" textLength="327.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SolidWorks · Inventor · KiCad · EasyEDA</text>
   </g>
   <g class="line" style="--d:0.77s">
-  <text class="value" x="139.2" y="391.0" textLength="327.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">team lead · 9-month engineering project</text>
+  <text class="label" x="30.0" y="391.0" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Built</text>
+  <text class="value" x="139.2" y="391.0" textLength="445.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Vision-based screw sorter — YOLO11 on Pi 5, &gt;95% acc.</text>
   </g>
   <g class="line" style="--d:0.84s">
-  <text class="value" x="139.2" y="422.0" textLength="352.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Budget tracker — C++, written from scratch</text>
+  <text class="value" x="139.2" y="422.0" textLength="327.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">team lead · 9-month engineering project</text>
   </g>
   <g class="line" style="--d:0.91s">
   <text class="value" x="139.2" y="453.0" textLength="436.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Finanza — personal finance app, local-only by design</text>
