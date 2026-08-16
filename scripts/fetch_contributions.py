@@ -105,14 +105,28 @@ def parse(html: str) -> dict:
     }
 
 
+def unchanged(data: dict) -> bool:
+    """Le fichier existant décrit-il déjà exactement ces contributions ?
+
+    `fetched_at` est exclu de la comparaison, sinon il suffirait à lui seul à
+    rendre chaque exécution « différente » : le workflow quotidien commiterait
+    alors 365 fois par an même sans la moindre contribution nouvelle, et
+    noierait l'historique du dépôt qui sert justement de vitrine.
+    """
+    if not OUT.exists():
+        return False
+    try:
+        previous = json.loads(OUT.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return False
+    meaningful = lambda d: {k: v for k, v in d.items() if k != "fetched_at"}
+    return meaningful(previous) == meaningful(data)
+
+
 def main() -> None:
     user = sys.argv[1] if len(sys.argv) > 1 else DEFAULT_USER
     data = parse(fetch_html(user))
     data["user"] = user
-    data["fetched_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
-
-    OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
 
     active = [d for d in data["days"] if d["count"]]
     print(f"utilisateur   {user}")
@@ -120,6 +134,14 @@ def main() -> None:
           f"  ({len(data['days'])} jours)")
     print(f"total         {data['total']} contributions")
     print(f"jours actifs  {len(active)}")
+
+    if unchanged(data):
+        print("etat          identique au fichier existant, rien de réécrit")
+        return
+
+    data["fetched_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    OUT.parent.mkdir(exist_ok=True)
+    OUT.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     print(f"ecrit         {OUT.relative_to(ROOT)}")
 
 
