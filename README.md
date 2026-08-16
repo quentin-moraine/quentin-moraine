@@ -8,12 +8,8 @@
 
 <h3><code>quentin@github ~ $ whoami</code></h3>
 
-<table>
-  <tr>
-    <td valign="top"><img src="./ascii-portrait.svg" width="370" alt="Portrait en art ASCII"></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="Formation, domaines, langages, outils et projets"></td>
-  </tr>
-</table>
+<img src="./ascii-portrait.svg" width="370" align="top" alt="Portrait en art ASCII">
+<img src="./info-card.svg" width="470" align="top" alt="Formation, domaines, langages, outils et projets">
 
 <br>
 
