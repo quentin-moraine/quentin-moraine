@@ -29,15 +29,19 @@ ROWS: list[tuple[str, str]] = [
     ("Now", "MSc Robotics — Cranfield University (2026–27)"),
     ("Prev", "General engineering — ICAM Strasbourg (2022–27)"),
     ("", "Exchange semester — MCAST, Malta (2023)"),
-    ("Focus", "Perception · control · embedded robotics"),
+    ("Focus", "Modern C++ for robotics · perception · control · embedded"),
     ("Lang", "C++ · Python · C · MATLAB"),
     ("Tools", "OpenCV · YOLO/Ultralytics · NumPy · Git · Linux"),
     ("Boards", "Raspberry Pi · ESP32 · Arduino"),
     ("CAD/EDA", "SolidWorks · Inventor · KiCad · EasyEDA"),
     ("Built", "Vision-based screw sorter — YOLO11 on Pi 5, >95% acc."),
     ("", "team lead · 9-month engineering project"),
-    ("", "Finanza — private-by-design finance app"),
-    ("", "JARVIS — native macOS assistant, local LLM"),
+    ("", "Budget tracker — C++, written from scratch"),
+    # Aucune stack annoncée pour les deux applis qui suivent : elles ont été
+    # largement générées par IA. Revendiquer Next.js ou Swift serait une ligne
+    # indéfendable en entretien. On les décrit par ce qu'elles font.
+    ("", "Finanza — personal finance app, local-only by design"),
+    ("", "JARVIS — desktop assistant running a local LLM"),
     # Allemand et espagnol sont à A2 sur le CV. Une langue listée sans niveau
     # laisse supposer un niveau de travail ; l'annoter « A2 » la disqualifie
     # elle-même. Deux langues solides valent mieux que quatre lignes molles.
@@ -50,7 +54,10 @@ CHAR_W = FONT_SIZE * 0.6
 PAD_X = 30.0
 LABEL_X = PAD_X
 VALUE_X = PAD_X + 13 * CHAR_W
-LINE_H = 34.0
+# Interligne calé pour que la carte, affichée à 470 px dans le README, tombe à
+# la même hauteur que le portrait affiché à 370 px. À réajuster si on ajoute ou
+# retire des lignes, sinon les deux colonnes se décalent.
+LINE_H = 31.0
 
 TITLE_SIZE = 18.0
 TITLE_Y = 52.0
