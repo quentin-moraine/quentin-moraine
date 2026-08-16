@@ -1,0 +1,3 @@
+# Ce dont la CI a besoin, et rien de plus : seule la heatmap est automatisée.
+requests>=2.32
+beautifulsoup4>=4.12

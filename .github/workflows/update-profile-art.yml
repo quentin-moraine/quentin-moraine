@@ -1,0 +1,56 @@
+name: Update profile art
+
+# Seule la heatmap se régénère automatiquement. Le portrait ASCII et la carte
+# sont statiques : ils ne changent que si la photo ou le contenu change, et se
+# régénèrent alors à la main en local. C'est pourquoi la CI n'installe que
+# requests + beautifulsoup4, jamais pillow ni numpy.
+
+"on":
+  schedule:
+    - cron: "17 6 * * *" # ~06:17 UTC chaque jour
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-art
+  cancel-in-progress: false
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements-ci.txt
+
+      - run: pip install -r scripts/requirements-ci.txt
+
+      - name: Récupérer les contributions et rendre la grille
+        run: |
+          python scripts/fetch_contributions.py "${{ github.repository_owner }}"
+          PYTHONPATH=scripts python scripts/render_heatmap_svg.py
+
+      # Commit à la main plutôt qu'avec une action tierce : trois lignes font
+      # le même travail avec le GITHUB_TOKEN par défaut, et c'est un tiers de
+      # moins avec un accès en écriture sur le dépôt qui porte le profil.
+      # Ces commits sont signés github-actions[bot] : ils ne gonflent pas le
+      # graphe de contributions.
+      - name: Commiter si la grille a changé
+        run: |
+          if git diff --quiet -- data/contributions.json contrib-heatmap.svg; then
+            echo "Aucun changement."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/contributions.json contrib-heatmap.svg
+          git commit -m "chore: refresh contribution graph [skip ci]"
+          git push

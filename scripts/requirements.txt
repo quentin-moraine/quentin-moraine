@@ -1,0 +1,5 @@
+# Toutes les dépendances, pour un poste de travail local.
+# Le portrait ne se régénère qu'à la main, quand la photo change.
+pillow>=11
+numpy>=2
+-r requirements-ci.txt

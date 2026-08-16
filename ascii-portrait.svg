@@ -1,0 +1,250 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 682 682" width="682" height="682" role="img" aria-labelledby="title desc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+  <title id="title">Portrait ASCII de Quentin Moraine</title>
+  <desc id="desc">Portrait monochrome en art ASCII, imprimé ligne par ligne, généré à partir d'une photo.</desc>
+  <style>
+    :root {
+      --ink: #1f2328;
+      --dim: #59636e;
+      --faint: #d1d9e0;
+      --accent: #1a7f37;
+      --heat-0: #ebedf0;
+      --heat-1: #aceebb;
+      --heat-2: #4ac26b;
+      --heat-3: #2da44e;
+      --heat-4: #116329;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #e6edf3;
+        --dim: #9198a1;
+        --faint: #3d444d;
+        --accent: #3fb950;
+        --heat-0: #151b23;
+        --heat-1: #033a16;
+        --heat-2: #196c2e;
+        --heat-3: #2ea043;
+        --heat-4: #56d364;
+      }
+    }
+    .row {
+      fill: var(--ink);
+      font-size: 12.0px;
+      white-space: pre;
+      clip-path: inset(0 0 0 0);
+    }
+    .cursor {
+      fill: var(--accent);
+      opacity: 0;
+    }
+    .art-dark { display: none; }
+    @media (prefers-color-scheme: dark) {
+      .art-light { display: none; }
+      .art-dark { display: block; }
+    }
+    @media (prefers-reduced-motion: no-preference) {
+  .row {
+    animation: type 0.45s steps(92, end) var(--d) both;
+  }
+  .cursor {
+    animation: ride 0.45s steps(92, end) var(--d) both;
+  }
+  @keyframes type {
+    from { clip-path: inset(0 100% 0 0); }
+    to   { clip-path: inset(0 0 0 0); }
+  }
+  @keyframes ride {
+    0%   { transform: translateX(0); opacity: 1; }
+    92%  { opacity: 1; }
+    100% { transform: translateX(662.4px); opacity: 0; }
+  }
+    }
+  </style>
+  <g class="art-light">
+    <text class="row" x="10.0" y="21.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.0s">                                                                                            </text>
+    <rect class="cursor" x="10.0" y="11.15" width="7.2" height="11.23" style="--d:0.0s"/>
+    <text class="row" x="10.0" y="35.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.055s">                                          .                                                 </text>
+    <rect class="cursor" x="10.0" y="25.55" width="7.2" height="11.23" style="--d:0.055s"/>
+    <text class="row" x="10.0" y="50.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.11s">                                     ..`-=--::--=--:.                                       </text>
+    <rect class="cursor" x="10.0" y="39.95" width="7.2" height="11.23" style="--d:0.11s"/>
+    <text class="row" x="10.0" y="64.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.165s">                                  .-+==++=--=+c*++===:-:-:`                                 </text>
+    <rect class="cursor" x="10.0" y="54.35" width="7.2" height="11.23" style="--d:0.165s"/>
+    <text class="row" x="10.0" y="79.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.22s">                               .`+c*c+*s#ssc*+csscssccs+===:.                               </text>
+    <rect class="cursor" x="10.0" y="68.75" width="7.2" height="11.23" style="--d:0.22s"/>
+    <text class="row" x="10.0" y="93.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.275s">                            .-+*csc**c%%#s%%#sc**++*cs%%%sc*=:`.                            </text>
+    <rect class="cursor" x="10.0" y="83.15" width="7.2" height="11.23" style="--d:0.275s"/>
+    <text class="row" x="10.0" y="107.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.33s">                          :csscs#%#s#scss%@%@@*+cscccc#%%@#sc*+-:.                          </text>
+    <rect class="cursor" x="10.0" y="97.55" width="7.2" height="11.23" style="--d:0.33s"/>
+    <text class="row" x="10.0" y="122.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.385s">                         -##ssc%@@@###cc####cc=*#ss#%@@@@@%c+==---.                         </text>
+    <rect class="cursor" x="10.0" y="111.95" width="7.2" height="11.23" style="--d:0.385s"/>
+    <text class="row" x="10.0" y="136.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.44s">                        .=%##%scs%@%s#%s%%#cc##***ss#s%%@%cs*-==--=-                        </text>
+    <rect class="cursor" x="10.0" y="126.35" width="7.2" height="11.23" style="--d:0.44s"/>
+    <text class="row" x="10.0" y="151.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.495s">                        `c#%%#%%%%@%#s#@@%%#%%%%##s#c+*s###%#+-==*++=                       </text>
+    <rect class="cursor" x="10.0" y="140.75" width="7.2" height="11.23" style="--d:0.495s"/>
+    <text class="row" x="10.0" y="165.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.55s">                       .**#%@s##s#@@%@%@%%###cccc*c#%s*c%#s##c=*+s#*-                       </text>
+    <rect class="cursor" x="10.0" y="155.15" width="7.2" height="11.23" style="--d:0.55s"/>
+    <text class="row" x="10.0" y="179.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.605s">                        .cs%##%%#@@@s*+*cssc++cc##%s#s##sc***+*s*#c=.                       </text>
+    <rect class="cursor" x="10.0" y="169.55" width="7.2" height="11.23" style="--d:0.605s"/>
+    <text class="row" x="10.0" y="194.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.66s">                        -ssc#ss+***+--==--=+ccs##c+-====****+**ss%c+                        </text>
+    <rect class="cursor" x="10.0" y="183.95" width="7.2" height="11.23" style="--d:0.66s"/>
+    <text class="row" x="10.0" y="208.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.715s">                        =c#c**-:``````.....::--:`....``..`````-=c#c`                        </text>
+    <rect class="cursor" x="10.0" y="198.35" width="7.2" height="11.23" style="--d:0.715s"/>
+    <text class="row" x="10.0" y="223.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.77s">                        :csc=:............ ..                 `+c==                         </text>
+    <rect class="cursor" x="10.0" y="212.75" width="7.2" height="11.23" style="--d:0.77s"/>
+    <text class="row" x="10.0" y="237.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.825s">                         *c+```:=+cssssc*-`..  ..`:==++=-:`.   `*+:                         </text>
+    <rect class="cursor" x="10.0" y="227.15" width="7.2" height="11.23" style="--d:0.825s"/>
+    <text class="row" x="10.0" y="251.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.88s">                         ...+*cc++==-:-+****-```=cccc*+++++++:..+*.                         </text>
+    <rect class="cursor" x="10.0" y="241.55" width="7.2" height="11.23" style="--d:0.88s"/>
+    <text class="row" x="10.0" y="266.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.935s">                        -:`-=+*:=+**s#s==+=*#sssc=***cc*==-:-ss#..                          </text>
+    <rect class="cursor" x="10.0" y="255.95" width="7.2" height="11.23" style="--d:0.935s"/>
+    <text class="row" x="10.0" y="280.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.99s">                       `*:=c::#:--:::::=+==cc. ==:=+++=-=+-:`sc*:.-.                        </text>
+    <rect class="cursor" x="10.0" y="270.35" width="7.2" height="11.23" style="--d:0.99s"/>
+    <text class="row" x="10.0" y="295.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.045s">                       .=-+=``+-........`-+s:. `s..``:::`-===s::-.-.                        </text>
+    <rect class="cursor" x="10.0" y="284.75" width="7.2" height="11.23" style="--d:1.045s"/>
+    <text class="row" x="10.0" y="309.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.1s">                       .=*+:```*`.     .`+s-.  .:*.      .--c:..=`:                         </text>
+    <rect class="cursor" x="10.0" y="299.15" width="7.2" height="11.23" style="--d:1.1s"/>
+    <text class="row" x="10.0" y="323.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.155s">                        +c+::`..`-====+*s+-:..  .:c=-::``:*=....:``                         </text>
+    <rect class="cursor" x="10.0" y="313.55" width="7.2" height="11.23" style="--d:1.155s"/>
+    <text class="row" x="10.0" y="338.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.21s">                        ==+-::`:````..`:+=*+-:`=-`:---===-`  ..```.                         </text>
+    <rect class="cursor" x="10.0" y="327.95" width="7.2" height="11.23" style="--d:1.21s"/>
+    <text class="row" x="10.0" y="352.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.265s">                         ==-:::``... .`-+***=-::::..``........``.`                          </text>
+    <rect class="cursor" x="10.0" y="342.35" width="7.2" height="11.23" style="--d:1.265s"/>
+    <text class="row" x="10.0" y="367.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.32s">                          `:---:``...`:-===:`::........`...`:::.`                           </text>
+    <rect class="cursor" x="10.0" y="356.75" width="7.2" height="11.23" style="--d:1.32s"/>
+    <text class="row" x="10.0" y="381.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.375s">                            -==--`.``:-=-==-::::````:`````::::.                             </text>
+    <rect class="cursor" x="10.0" y="371.15" width="7.2" height="11.23" style="--d:1.375s"/>
+    <text class="row" x="10.0" y="395.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.43s">                            `===--``:=*cc*+=====+**++=:``:::::                              </text>
+    <rect class="cursor" x="10.0" y="385.55" width="7.2" height="11.23" style="--d:1.43s"/>
+    <text class="row" x="10.0" y="410.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.485s">                             -===-:````::::::::``.....```:::-.                              </text>
+    <rect class="cursor" x="10.0" y="399.95" width="7.2" height="11.23" style="--d:1.485s"/>
+    <text class="row" x="10.0" y="424.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.54s">                             .------:``:``````.......```:`:-:                               </text>
+    <rect class="cursor" x="10.0" y="414.35" width="7.2" height="11.23" style="--d:1.54s"/>
+    <text class="row" x="10.0" y="439.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.595s">                              .----==-:`......... ..````::-`                                </text>
+    <rect class="cursor" x="10.0" y="428.75" width="7.2" height="11.23" style="--d:1.595s"/>
+    <text class="row" x="10.0" y="453.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.65s">                              .=+++===-:```.........`:-===:                                 </text>
+    <rect class="cursor" x="10.0" y="443.15" width="7.2" height="11.23" style="--d:1.65s"/>
+    <text class="row" x="10.0" y="467.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.705s">                               ====+*+++=-::::::``::=++=:`:                                 </text>
+    <rect class="cursor" x="10.0" y="457.55" width="7.2" height="11.23" style="--d:1.705s"/>
+    <text class="row" x="10.0" y="482.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.76s">                              :=====+++****+++++++**+-:`..`                                 </text>
+    <rect class="cursor" x="10.0" y="471.95" width="7.2" height="11.23" style="--d:1.76s"/>
+    <text class="row" x="10.0" y="496.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.815s">                             :c----=====++******+=-```...`::                                </text>
+    <rect class="cursor" x="10.0" y="486.35" width="7.2" height="11.23" style="--d:1.815s"/>
+    <text class="row" x="10.0" y="511.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.87s">                           ..=c=--------======-:````....``-c:                               </text>
+    <rect class="cursor" x="10.0" y="500.75" width="7.2" height="11.23" style="--d:1.87s"/>
+    <text class="row" x="10.0" y="525.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.925s">                       .....`+*=------------::`````.....`:=*+                               </text>
+    <rect class="cursor" x="10.0" y="515.15" width="7.2" height="11.23" style="--d:1.925s"/>
+    <text class="row" x="10.0" y="539.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.98s">                  .``:```...`-+=--::::---::::```.......``:-+=.                              </text>
+    <rect class="cursor" x="10.0" y="529.55" width="7.2" height="11.23" style="--d:1.98s"/>
+    <text class="row" x="10.0" y="554.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.035s">             ..```````:``....:=--::::::::```...........`::-==. ......                       </text>
+    <rect class="cursor" x="10.0" y="543.95" width="7.2" height="11.23" style="--d:2.035s"/>
+    <text class="row" x="10.0" y="568.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.09s">         ......`.``````.......--::::```................``::--.   ........                   </text>
+    <rect class="cursor" x="10.0" y="558.35" width="7.2" height="11.23" style="--d:2.09s"/>
+    <text class="row" x="10.0" y="583.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.145s">   ..................`.....   -::`````................````:::`    . .........               </text>
+    <rect class="cursor" x="10.0" y="572.75" width="7.2" height="11.23" style="--d:2.145s"/>
+    <text class="row" x="10.0" y="597.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.2s">................ ..........   ::`````... ................``::.     ..............           </text>
+    <rect class="cursor" x="10.0" y="587.15" width="7.2" height="11.23" style="--d:2.2s"/>
+    <text class="row" x="10.0" y="611.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.255s">........... ..   .........    .``......    ......  .......```..     ....  .  ........       </text>
+    <rect class="cursor" x="10.0" y="601.55" width="7.2" height="11.23" style="--d:2.255s"/>
+    <text class="row" x="10.0" y="626.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.31s">.......          .........     ........     ....   . ..........    .     .    ....  ...     </text>
+    <rect class="cursor" x="10.0" y="615.95" width="7.2" height="11.23" style="--d:2.31s"/>
+    <text class="row" x="10.0" y="640.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.365s">                   . . ...       .....        ..    ...... ...                              </text>
+    <rect class="cursor" x="10.0" y="630.35" width="7.2" height="11.23" style="--d:2.365s"/>
+    <text class="row" x="10.0" y="655.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.42s">                       .....                                .  .                            </text>
+    <rect class="cursor" x="10.0" y="644.75" width="7.2" height="11.23" style="--d:2.42s"/>
+    <text class="row" x="10.0" y="669.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.475s">                        ....                                  ..                            </text>
+    <rect class="cursor" x="10.0" y="659.15" width="7.2" height="11.23" style="--d:2.475s"/>
+  </g>
+  <g class="art-dark">
+    <text class="row" x="10.0" y="21.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.0s">                                                                                            </text>
+    <rect class="cursor" x="10.0" y="11.15" width="7.2" height="11.23" style="--d:0.0s"/>
+    <text class="row" x="10.0" y="35.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.055s">                                        .::::::```..                                        </text>
+    <rect class="cursor" x="10.0" y="25.55" width="7.2" height="11.23" style="--d:0.055s"/>
+    <text class="row" x="10.0" y="50.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.11s">                                   :----::---=:::-:==-:..                                   </text>
+    <rect class="cursor" x="10.0" y="39.95" width="7.2" height="11.23" style="--d:0.11s"/>
+    <text class="row" x="10.0" y="64.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.165s">                                 .=-``:``::::`..```::--=:--`                                </text>
+    <rect class="cursor" x="10.0" y="54.35" width="7.2" height="11.23" style="--d:0.165s"/>
+    <text class="row" x="10.0" y="79.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.22s">                              `--`...`.   ...`.. .. ...```:--.                              </text>
+    <rect class="cursor" x="10.0" y="68.75" width="7.2" height="11.23" style="--d:0.22s"/>
+    <text class="row" x="10.0" y="93.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.275s">                          .:::``......       ....``..     ..:-=-`                           </text>
+    <rect class="cursor" x="10.0" y="83.15" width="7.2" height="11.23" style="--d:0.275s"/>
+    <text class="row" x="10.0" y="107.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.33s">                         ::. ..      ...      .`......      ..`-==                          </text>
+    <rect class="cursor" x="10.0" y="97.55" width="7.2" height="11.23" style="--d:0.33s"/>
+    <text class="row" x="10.0" y="122.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.385s">                        .:    .       ..    ..:. ..        .`::::--.                        </text>
+    <rect class="cursor" x="10.0" y="111.95" width="7.2" height="11.23" style="--d:0.385s"/>
+    <text class="row" x="10.0" y="136.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.44s">                        :`     ..          ..  ....       . .-:::-`::                       </text>
+    <rect class="cursor" x="10.0" y="126.35" width="7.2" height="11.23" style="--d:0.44s"/>
+    <text class="row" x="10.0" y="151.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.495s">                       .:.                        . .`..     `-:`.```                       </text>
+    <rect class="cursor" x="10.0" y="140.75" width="7.2" height="11.23" style="--d:0.495s"/>
+    <text class="row" x="10.0" y="165.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.55s">                       :..      .            ......  ...  .  .:.`. .:.                      </text>
+    <rect class="cursor" x="10.0" y="155.15" width="7.2" height="11.23" style="--d:0.55s"/>
+    <text class="row" x="10.0" y="179.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.605s">                        :.           .`.....``..         ....`... .`-                       </text>
+    <rect class="cursor" x="10.0" y="169.55" width="7.2" height="11.23" style="--d:0.605s"/>
+    <text class="row" x="10.0" y="194.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.66s">                        `...  .`...`-:``:-``..   .`::::`...``...  .``                       </text>
+    <rect class="cursor" x="10.0" y="183.95" width="7.2" height="11.23" style="--d:0.66s"/>
+    <text class="row" x="10.0" y="208.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.715s">                        `. ...:=+***++*ccc*=-::-+ccc*++***+++=:`. .:                        </text>
+    <rect class="cursor" x="10.0" y="198.35" width="7.2" height="11.23" style="--d:0.715s"/>
+    <text class="row" x="10.0" y="223.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.77s">                        :...:=**cscccccccssss#s#%%%%%%%%%#####+`.``.                        </text>
+    <rect class="cursor" x="10.0" y="212.75" width="7.2" height="11.23" style="--d:0.77s"/>
+    <text class="row" x="10.0" y="237.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.825s">                        `..`+++-:`..  ...:+*ssssc+-:```:--+*s#s+.`:                         </text>
+    <rect class="cursor" x="10.0" y="227.15" width="7.2" height="11.23" style="--d:0.825s"/>
+    <text class="row" x="10.0" y="251.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.88s">                         :`=`...``:::-:`..``-=++:.....```````-**``:                         </text>
+    <rect class="cursor" x="10.0" y="241.55" width="7.2" height="11.23" style="--d:0.88s"/>
+    <text class="row" x="10.0" y="266.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.935s">                       ::-::``.-:`...  :```. .. .`......`:---.  :::                         </text>
+    <rect class="cursor" x="10.0" y="255.95" width="7.2" height="11.23" style="--d:0.935s"/>
+    <text class="row" x="10.0" y="280.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:0.99s">                       -`-:.== =-:-----:``:..c#``-:```::``:-= ..:*:-                        </text>
+    <rect class="cursor" x="10.0" y="270.35" width="7.2" height="11.23" style="--d:0.99s"/>
+    <text class="row" x="10.0" y="295.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.045s">                       :`:``==`-*cccc***+-` -c#+.cc*==-==-::` ---c:-                        </text>
+    <rect class="cursor" x="10.0" y="284.75" width="7.2" height="11.23" style="--d:1.045s"/>
+    <text class="row" x="10.0" y="309.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.1s">                       :```==+*.=s#%%%#s+` -*s#s-`*#%%%#%c--.=**`+-:                        </text>
+    <rect class="cursor" x="10.0" y="299.15" width="7.2" height="11.23" style="--d:1.1s"/>
+    <text class="row" x="10.0" y="323.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.155s">                       ``.`-=+*c+:::```..`:=*c#s*-.::-===-.`*c**==+                         </text>
+    <rect class="cursor" x="10.0" y="313.55" width="7.2" height="11.23" style="--d:1.155s"/>
+    <text class="row" x="10.0" y="338.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.21s">                        ::`:======++**+-`:``--=::+-:::::::*##s*++==                         </text>
+    <rect class="cursor" x="10.0" y="327.95" width="7.2" height="11.23" style="--d:1.21s"/>
+    <text class="row" x="10.0" y="352.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.265s">                        `:`:--==+*csss+:`..``:---=cc++**ccssc*=**+.                         </text>
+    <rect class="cursor" x="10.0" y="342.35" width="7.2" height="11.23" style="--d:1.265s"/>
+    <text class="row" x="10.0" y="367.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.32s">                         .-::::-=+*c*+=-:`:-+==****cc**+***+===*=.                          </text>
+    <rect class="cursor" x="10.0" y="356.75" width="7.2" height="11.23" style="--d:1.32s"/>
+    <text class="row" x="10.0" y="381.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.375s">                           .:`::-=*+==::::::-=-==++===+=+=-----`                            </text>
+    <rect class="cursor" x="10.0" y="371.15" width="7.2" height="11.23" style="--d:1.375s"/>
+    <text class="row" x="10.0" y="395.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.43s">                            :```::+=-`.....``````..```-==-:---.                             </text>
+    <rect class="cursor" x="10.0" y="385.55" width="7.2" height="11.23" style="--d:1.43s"/>
+    <text class="row" x="10.0" y="410.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.485s">                            .````:-+==-::-----:==+***+==----::                              </text>
+    <rect class="cursor" x="10.0" y="399.95" width="7.2" height="11.23" style="--d:1.485s"/>
+    <text class="row" x="10.0" y="424.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.54s">                             ``:``::-----===-=+++***+==----::                               </text>
+    <rect class="cursor" x="10.0" y="414.35" width="7.2" height="11.23" style="--d:1.54s"/>
+    <text class="row" x="10.0" y="439.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.595s">                              :``````:--===++++****+=----:::                                </text>
+    <rect class="cursor" x="10.0" y="428.75" width="7.2" height="11.23" style="--d:1.595s"/>
+    <text class="row" x="10.0" y="453.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.65s">                              ```..````:---===++++==-::```:`                                </text>
+    <rect class="cursor" x="10.0" y="443.15" width="7.2" height="11.23" style="--d:1.65s"/>
+    <text class="row" x="10.0" y="467.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.705s">                              ````......``::::::::::`..`:-:                                 </text>
+    <rect class="cursor" x="10.0" y="457.55" width="7.2" height="11.23" style="--d:1.705s"/>
+    <text class="row" x="10.0" y="482.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.76s">                             .`````..................`:----                                 </text>
+    <rect class="cursor" x="10.0" y="471.95" width="7.2" height="11.23" style="--d:1.76s"/>
+    <text class="row" x="10.0" y="496.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.815s">                           .:`.```````...........``::-----```                               </text>
+    <rect class="cursor" x="10.0" y="486.35" width="7.2" height="11.23" style="--d:1.815s"/>
+    <text class="row" x="10.0" y="511.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.87s">                          `-:...````````......``::::----::`.`-.                             </text>
+    <rect class="cursor" x="10.0" y="500.75" width="7.2" height="11.23" style="--d:1.87s"/>
+    <text class="row" x="10.0" y="525.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.925s">                     ..`:::::...````````.`````::::::---::`...--.                            </text>
+    <rect class="cursor" x="10.0" y="515.15" width="7.2" height="11.23" style="--d:1.925s"/>
+    <text class="row" x="10.0" y="539.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:1.98s">                 .``````:::::....``````````````:::::--::``...:--:``.                        </text>
+    <rect class="cursor" x="10.0" y="529.55" width="7.2" height="11.23" style="--d:1.98s"/>
+    <text class="row" x="10.0" y="554.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.035s">           ..````````````::::`...``````````::::::::::::```...:-::::::`..                    </text>
+    <rect class="cursor" x="10.0" y="543.95" width="7.2" height="11.23" style="--d:2.035s"/>
+    <text class="row" x="10.0" y="568.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.09s">      ..```:``````````````:::`....`````````:::::::::::````...`::::::::::``.                 </text>
+    <rect class="cursor" x="10.0" y="558.35" width="7.2" height="11.23" style="--d:2.09s"/>
+    <text class="row" x="10.0" y="583.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.145s"> ..````````````````````````:::...````````````````::```````...`::::`:::````````.             </text>
+    <rect class="cursor" x="10.0" y="572.75" width="7.2" height="11.23" style="--d:2.145s"/>
+    <text class="row" x="10.0" y="597.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.2s">```````````````````````````:::...`````````````````````````...````````````````````..         </text>
+    <rect class="cursor" x="10.0" y="587.15" width="7.2" height="11.23" style="--d:2.2s"/>
+    <text class="row" x="10.0" y="611.92" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.255s">``````````````````````````````.......````````````````````.....``````````````````````..      </text>
+    <rect class="cursor" x="10.0" y="601.55" width="7.2" height="11.23" style="--d:2.255s"/>
+    <text class="row" x="10.0" y="626.32" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.31s">............`..`..........`````........````......`.............````..`.``.``..............  </text>
+    <rect class="cursor" x="10.0" y="615.95" width="7.2" height="11.23" style="--d:2.31s"/>
+    <text class="row" x="10.0" y="640.72" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.365s">............................................................................................</text>
+    <rect class="cursor" x="10.0" y="630.35" width="7.2" height="11.23" style="--d:2.365s"/>
+    <text class="row" x="10.0" y="655.12" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.42s">............................................................................................</text>
+    <rect class="cursor" x="10.0" y="644.75" width="7.2" height="11.23" style="--d:2.42s"/>
+    <text class="row" x="10.0" y="669.52" textLength="662.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve" style="--d:2.475s">                                                                                            </text>
+    <rect class="cursor" x="10.0" y="659.15" width="7.2" height="11.23" style="--d:2.475s"/>
+  </g>
+</svg>

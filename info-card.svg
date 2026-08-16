@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 494" width="700" height="494" role="img" aria-labelledby="title desc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
+  <title id="title">Carte d'information de Quentin Moraine</title>
+  <desc id="desc">Panneau façon neofetch : formation, domaines, langages, outils, projets et langues parlées.</desc>
+  <style>
+    :root {
+      --ink: #1f2328;
+      --dim: #59636e;
+      --faint: #d1d9e0;
+      --accent: #1a7f37;
+      --heat-0: #ebedf0;
+      --heat-1: #aceebb;
+      --heat-2: #4ac26b;
+      --heat-3: #2da44e;
+      --heat-4: #116329;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink: #e6edf3;
+        --dim: #9198a1;
+        --faint: #3d444d;
+        --accent: #3fb950;
+        --heat-0: #151b23;
+        --heat-1: #033a16;
+        --heat-2: #196c2e;
+        --heat-3: #2ea043;
+        --heat-4: #56d364;
+      }
+    }
+    text { font-size: 14.0px; }
+    .title { fill: var(--accent); font-size: 18.0px; font-weight: 600; }
+    .label { fill: var(--dim); }
+    .value { fill: var(--ink); }
+    .rule  { stroke: var(--faint); stroke-width: 1; }
+    .line  { opacity: 1; }
+    @media (prefers-reduced-motion: no-preference) {
+  .line {
+    animation: rise 0.5s cubic-bezier(0.25, 1, 0.5, 1) var(--d) both;
+  }
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(7px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+    }
+  </style>
+  <g class="line" style="--d:0.0s">
+  <text class="title" x="30.0" y="52.0" textLength="151.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">quentin@github</text>
+  </g>
+  <g class="line" style="--d:0.07s">
+    <line class="rule" x1="30.0" y1="72.0" x2="670.0" y2="72.0"/>
+  </g>
+  <g class="line" style="--d:0.14s">
+  <text class="label" x="30.0" y="112.0" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Now</text>
+  <text class="value" x="139.2" y="112.0" textLength="378.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">MSc Robotics — Cranfield University (2026–27)</text>
+  </g>
+  <g class="line" style="--d:0.21s">
+  <text class="label" x="30.0" y="146.0" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Prev</text>
+  <text class="value" x="139.2" y="146.0" textLength="394.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">General engineering — ICAM Strasbourg (2022–27)</text>
+  </g>
+  <g class="line" style="--d:0.28s">
+  <text class="label" x="30.0" y="180.0" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Focus</text>
+  <text class="value" x="139.2" y="180.0" textLength="336.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Perception · control · embedded robotics</text>
+  </g>
+  <g class="line" style="--d:0.35s">
+  <text class="label" x="30.0" y="214.0" textLength="33.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Lang</text>
+  <text class="value" x="139.2" y="214.0" textLength="210.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">C++ · Python · C · MATLAB</text>
+  </g>
+  <g class="line" style="--d:0.42s">
+  <text class="label" x="30.0" y="248.0" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Tools</text>
+  <text class="value" x="139.2" y="248.0" textLength="394.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">OpenCV · YOLO/Ultralytics · NumPy · Git · Linux</text>
+  </g>
+  <g class="line" style="--d:0.49s">
+  <text class="label" x="30.0" y="282.0" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Boards</text>
+  <text class="value" x="139.2" y="282.0" textLength="252.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Raspberry Pi · ESP32 · Arduino</text>
+  </g>
+  <g class="line" style="--d:0.56s">
+  <text class="label" x="30.0" y="316.0" textLength="25.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">CAD</text>
+  <text class="value" x="139.2" y="316.0" textLength="176.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">SolidWorks · Inventor</text>
+  </g>
+  <g class="line" style="--d:0.63s">
+  <text class="label" x="30.0" y="350.0" textLength="42.0" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Built</text>
+  <text class="value" x="139.2" y="350.0" textLength="445.2" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Vision-based screw sorter — YOLO11 on Pi 5, &gt;95% acc.</text>
+  </g>
+  <g class="line" style="--d:0.7s">
+  <text class="value" x="139.2" y="384.0" textLength="327.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Finanza — private-by-design finance app</text>
+  </g>
+  <g class="line" style="--d:0.77s">
+  <text class="value" x="139.2" y="418.0" textLength="352.8" lengthAdjust="spacingAndGlyphs" xml:space="preserve">JARVIS — native macOS assistant, local LLM</text>
+  </g>
+  <g class="line" style="--d:0.84s">
+  <text class="label" x="30.0" y="452.0" textLength="50.4" lengthAdjust="spacingAndGlyphs" xml:space="preserve">Speaks</text>
+  <text class="value" x="139.2" y="452.0" textLength="285.6" lengthAdjust="spacingAndGlyphs" xml:space="preserve">FR native · EN C1 (TOEIC 950) · ES</text>
+  </g>
+</svg>
