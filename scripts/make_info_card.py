@@ -28,15 +28,20 @@ PROMPT = "quentin@github"
 ROWS: list[tuple[str, str]] = [
     ("Now", "MSc Robotics — Cranfield University (2026–27)"),
     ("Prev", "General engineering — ICAM Strasbourg (2022–27)"),
+    ("", "Exchange semester — MCAST, Malta (2023)"),
     ("Focus", "Perception · control · embedded robotics"),
     ("Lang", "C++ · Python · C · MATLAB"),
     ("Tools", "OpenCV · YOLO/Ultralytics · NumPy · Git · Linux"),
     ("Boards", "Raspberry Pi · ESP32 · Arduino"),
-    ("CAD", "SolidWorks · Inventor"),
+    ("CAD/EDA", "SolidWorks · Inventor · KiCad · EasyEDA"),
     ("Built", "Vision-based screw sorter — YOLO11 on Pi 5, >95% acc."),
+    ("", "team lead · 9-month engineering project"),
     ("", "Finanza — private-by-design finance app"),
     ("", "JARVIS — native macOS assistant, local LLM"),
-    ("Speaks", "FR native · EN C1 (TOEIC 950) · ES"),
+    # Allemand et espagnol sont à A2 sur le CV. Une langue listée sans niveau
+    # laisse supposer un niveau de travail ; l'annoter « A2 » la disqualifie
+    # elle-même. Deux langues solides valent mieux que quatre lignes molles.
+    ("Speaks", "FR native · EN C1 (TOEIC 950)"),
 ]
 
 WIDTH = 700
