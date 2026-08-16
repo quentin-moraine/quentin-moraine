@@ -113,9 +113,9 @@ def build_svg(animated: bool) -> str:
         theme.svg_header(
             WIDTH,
             height,
-            "Carte d'information de Quentin Moraine",
-            "Panneau façon neofetch : formation, domaines, langages, outils, "
-            "projets et langues parlées.",
+            "Quentin Moraine — profile card",
+            "Neofetch-style panel: education, focus areas, languages, tools, "
+            "projects and spoken languages.",
         ),
         "  <style>\n" + "\n".join(styles) + "\n  </style>\n",
     ]

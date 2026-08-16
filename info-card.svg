@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 557" width="700" height="557" role="img" aria-labelledby="title desc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
-  <title id="title">Carte d'information de Quentin Moraine</title>
-  <desc id="desc">Panneau façon neofetch : formation, domaines, langages, outils, projets et langues parlées.</desc>
+  <title id="title">Quentin Moraine — profile card</title>
+  <desc id="desc">Neofetch-style panel: education, focus areas, languages, tools, projects and spoken languages.</desc>
   <style>
     :root {
       --ink: #1f2328;

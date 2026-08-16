@@ -1,5 +1,5 @@
 {
-  "total": 2,
+  "total": 10,
   "range": {
     "start": "2025-08-17",
     "end": "2026-08-16"
@@ -1827,10 +1827,10 @@
     },
     {
       "date": "2026-08-16",
-      "level": 0,
-      "count": 0
+      "level": 4,
+      "count": 8
     }
   ],
   "user": "quentin-moraine",
-  "fetched_at": "2026-08-16T18:30:14+00:00"
+  "fetched_at": "2026-08-16T21:01:28+00:00"
 }

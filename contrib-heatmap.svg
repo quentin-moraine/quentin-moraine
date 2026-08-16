@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 853 186" width="853" height="186" role="img" aria-labelledby="title desc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
-  <title id="title">Calendrier de contributions GitHub de quentin-moraine</title>
-  <desc id="desc">2 contributions sur l'année écoulée, du 2025-08-17 au 2026-08-16, en grille de 53 semaines par 7 jours.</desc>
+  <title id="title">GitHub contribution calendar for quentin-moraine</title>
+  <desc id="desc">10 contributions over the past year, from 2025-08-17 to 2026-08-16, laid out as 53 weeks by 7 days.</desc>
   <style>
     :root {
       --ink: #1f2328;
@@ -426,9 +426,9 @@
     <rect class="cell l0" x="811.0" y="96.0" width="11.0" height="11.0" rx="2.5" style="--d:1.21s"/>
     <rect class="cell l0" x="811.0" y="111.0" width="11.0" height="11.0" rx="2.5" style="--d:1.232s"/>
     <rect class="cell l0" x="811.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:1.254s"/>
-    <rect class="cell l0" x="826.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:1.144s"/>
+    <rect class="cell l4" x="826.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:1.144s"/>
   </g>
-  <text class="total" x="16.0" y="170.0">2 contributions in the last year</text>
+  <text class="total" x="16.0" y="170.0">10 contributions in the last year</text>
   <text x="727.6" y="170.0" text-anchor="end">Less</text>
     <rect class="l0" x="733.6" y="161.0" width="11.0" height="11.0" rx="2.5"/>
     <rect class="l1" x="748.6" y="161.0" width="11.0" height="11.0" rx="2.5"/>

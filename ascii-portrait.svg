@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 682 682" width="682" height="682" role="img" aria-labelledby="title desc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
-  <title id="title">Portrait ASCII de Quentin Moraine</title>
-  <desc id="desc">Portrait monochrome en art ASCII, imprimé ligne par ligne, généré à partir d'une photo.</desc>
+  <title id="title">ASCII portrait of Quentin Moraine</title>
+  <desc id="desc">Monochrome ASCII-art portrait, printed line by line, generated from a photograph.</desc>
   <style>
     :root {
       --ink: #1f2328;

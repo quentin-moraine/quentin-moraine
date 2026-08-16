@@ -134,9 +134,9 @@ def build_svg(light: list[str], dark: list[str], animated: bool) -> str:
         theme.svg_header(
             int(width),
             int(height),
-            "Portrait ASCII de Quentin Moraine",
-            "Portrait monochrome en art ASCII, imprimé ligne par ligne, "
-            "généré à partir d'une photo.",
+            "ASCII portrait of Quentin Moraine",
+            "Monochrome ASCII-art portrait, printed line by line, "
+            "generated from a photograph.",
         ),
         "  <style>\n" + "\n".join(styles) + "\n  </style>\n",
     ]

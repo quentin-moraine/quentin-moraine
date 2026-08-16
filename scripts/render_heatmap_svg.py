@@ -134,10 +134,10 @@ def build_svg(data: dict, animated: bool) -> str:
         theme.svg_header(
             width,
             height,
-            f"Calendrier de contributions GitHub de {data['user']}",
-            f"{total} contribution{plural} sur l'année écoulée, "
-            f"du {data['range']['start']} au {data['range']['end']}, "
-            "en grille de 53 semaines par 7 jours.",
+            f"GitHub contribution calendar for {data['user']}",
+            f"{total} contribution{plural} over the past year, "
+            f"from {data['range']['start']} to {data['range']['end']}, "
+            "laid out as 53 weeks by 7 days.",
         ),
         "  <style>\n" + "\n".join(styles) + "\n  </style>\n",
     ]
