@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 853 186" width="853" height="186" role="img" aria-labelledby="title desc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
   <title id="title">GitHub contribution calendar for quentin-moraine</title>
-  <desc id="desc">11 contributions over the past year, from 2025-08-17 to 2026-08-22, laid out as 53 weeks by 7 days.</desc>
+  <desc id="desc">11 contributions over the past year, from 2025-08-24 to 2026-08-23, laid out as 53 weeks by 7 days.</desc>
   <style>
     :root {
       --ink: #1f2328;
@@ -46,18 +46,18 @@
   }
     }
   </style>
-  <text x="76.0" y="29.0">Sep</text>
-  <text x="136.0" y="29.0">Oct</text>
-  <text x="196.0" y="29.0">Nov</text>
-  <text x="271.0" y="29.0">Dec</text>
-  <text x="331.0" y="29.0">Jan</text>
-  <text x="406.0" y="29.0">Feb</text>
-  <text x="466.0" y="29.0">Mar</text>
-  <text x="526.0" y="29.0">Apr</text>
-  <text x="586.0" y="29.0">May</text>
-  <text x="661.0" y="29.0">Jun</text>
-  <text x="721.0" y="29.0">Jul</text>
-  <text x="781.0" y="29.0">Aug</text>
+  <text x="61.0" y="29.0">Sep</text>
+  <text x="121.0" y="29.0">Oct</text>
+  <text x="181.0" y="29.0">Nov</text>
+  <text x="256.0" y="29.0">Dec</text>
+  <text x="316.0" y="29.0">Jan</text>
+  <text x="391.0" y="29.0">Feb</text>
+  <text x="451.0" y="29.0">Mar</text>
+  <text x="511.0" y="29.0">Apr</text>
+  <text x="571.0" y="29.0">May</text>
+  <text x="646.0" y="29.0">Jun</text>
+  <text x="706.0" y="29.0">Jul</text>
+  <text x="766.0" y="29.0">Aug</text>
   <text x="16.0" y="60.5">Mon</text>
   <text x="16.0" y="90.5">Wed</text>
   <text x="16.0" y="120.5">Fri</text>
@@ -348,15 +348,15 @@
     <rect class="cell l0" x="646.0" y="81.0" width="11.0" height="11.0" rx="2.5" style="--d:0.946s"/>
     <rect class="cell l0" x="646.0" y="96.0" width="11.0" height="11.0" rx="2.5" style="--d:0.968s"/>
     <rect class="cell l0" x="646.0" y="111.0" width="11.0" height="11.0" rx="2.5" style="--d:0.99s"/>
-    <rect class="cell l0" x="646.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:1.012s"/>
-    <rect class="cell l0" x="661.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:0.902s"/>
+    <rect class="cell l4" x="646.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:1.012s"/>
+    <rect class="cell l4" x="661.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:0.902s"/>
     <rect class="cell l0" x="661.0" y="51.0" width="11.0" height="11.0" rx="2.5" style="--d:0.924s"/>
     <rect class="cell l0" x="661.0" y="66.0" width="11.0" height="11.0" rx="2.5" style="--d:0.946s"/>
     <rect class="cell l0" x="661.0" y="81.0" width="11.0" height="11.0" rx="2.5" style="--d:0.968s"/>
     <rect class="cell l0" x="661.0" y="96.0" width="11.0" height="11.0" rx="2.5" style="--d:0.99s"/>
     <rect class="cell l0" x="661.0" y="111.0" width="11.0" height="11.0" rx="2.5" style="--d:1.012s"/>
-    <rect class="cell l4" x="661.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:1.034s"/>
-    <rect class="cell l4" x="676.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:0.924s"/>
+    <rect class="cell l0" x="661.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:1.034s"/>
+    <rect class="cell l0" x="676.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:0.924s"/>
     <rect class="cell l0" x="676.0" y="51.0" width="11.0" height="11.0" rx="2.5" style="--d:0.946s"/>
     <rect class="cell l0" x="676.0" y="66.0" width="11.0" height="11.0" rx="2.5" style="--d:0.968s"/>
     <rect class="cell l0" x="676.0" y="81.0" width="11.0" height="11.0" rx="2.5" style="--d:0.99s"/>
@@ -419,20 +419,14 @@
     <rect class="cell l0" x="796.0" y="96.0" width="11.0" height="11.0" rx="2.5" style="--d:1.188s"/>
     <rect class="cell l0" x="796.0" y="111.0" width="11.0" height="11.0" rx="2.5" style="--d:1.21s"/>
     <rect class="cell l0" x="796.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:1.232s"/>
-    <rect class="cell l0" x="811.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:1.122s"/>
+    <rect class="cell l4" x="811.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:1.122s"/>
     <rect class="cell l0" x="811.0" y="51.0" width="11.0" height="11.0" rx="2.5" style="--d:1.144s"/>
     <rect class="cell l0" x="811.0" y="66.0" width="11.0" height="11.0" rx="2.5" style="--d:1.166s"/>
     <rect class="cell l0" x="811.0" y="81.0" width="11.0" height="11.0" rx="2.5" style="--d:1.188s"/>
     <rect class="cell l0" x="811.0" y="96.0" width="11.0" height="11.0" rx="2.5" style="--d:1.21s"/>
     <rect class="cell l0" x="811.0" y="111.0" width="11.0" height="11.0" rx="2.5" style="--d:1.232s"/>
     <rect class="cell l0" x="811.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:1.254s"/>
-    <rect class="cell l4" x="826.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:1.144s"/>
-    <rect class="cell l0" x="826.0" y="51.0" width="11.0" height="11.0" rx="2.5" style="--d:1.166s"/>
-    <rect class="cell l0" x="826.0" y="66.0" width="11.0" height="11.0" rx="2.5" style="--d:1.188s"/>
-    <rect class="cell l0" x="826.0" y="81.0" width="11.0" height="11.0" rx="2.5" style="--d:1.21s"/>
-    <rect class="cell l0" x="826.0" y="96.0" width="11.0" height="11.0" rx="2.5" style="--d:1.232s"/>
-    <rect class="cell l0" x="826.0" y="111.0" width="11.0" height="11.0" rx="2.5" style="--d:1.254s"/>
-    <rect class="cell l0" x="826.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:1.276s"/>
+    <rect class="cell l0" x="826.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:1.144s"/>
   </g>
   <text class="total" x="16.0" y="170.0">11 contributions in the last year</text>
   <text x="727.6" y="170.0" text-anchor="end">Less</text>
