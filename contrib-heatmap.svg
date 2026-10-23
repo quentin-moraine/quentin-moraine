@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 853 186" width="853" height="186" role="img" aria-labelledby="title desc" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace">
   <title id="title">GitHub contribution calendar for quentin-moraine</title>
-  <desc id="desc">12 contributions over the past year, from 2025-10-19 to 2026-10-22, laid out as 53 weeks by 7 days.</desc>
+  <desc id="desc">42 contributions over the past year, from 2025-10-19 to 2026-10-23, laid out as 53 weeks by 7 days.</desc>
   <style>
     :root {
       --ink: #1f2328;
@@ -292,11 +292,11 @@
     <rect class="cell l0" x="526.0" y="81.0" width="11.0" height="11.0" rx="2.5" style="--d:0.77s"/>
     <rect class="cell l0" x="526.0" y="96.0" width="11.0" height="11.0" rx="2.5" style="--d:0.792s"/>
     <rect class="cell l0" x="526.0" y="111.0" width="11.0" height="11.0" rx="2.5" style="--d:0.814s"/>
-    <rect class="cell l4" x="526.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:0.836s"/>
+    <rect class="cell l1" x="526.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:0.836s"/>
     <rect class="cell l4" x="541.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:0.726s"/>
-    <rect class="cell l0" x="541.0" y="51.0" width="11.0" height="11.0" rx="2.5" style="--d:0.748s"/>
-    <rect class="cell l0" x="541.0" y="66.0" width="11.0" height="11.0" rx="2.5" style="--d:0.77s"/>
-    <rect class="cell l0" x="541.0" y="81.0" width="11.0" height="11.0" rx="2.5" style="--d:0.792s"/>
+    <rect class="cell l4" x="541.0" y="51.0" width="11.0" height="11.0" rx="2.5" style="--d:0.748s"/>
+    <rect class="cell l4" x="541.0" y="66.0" width="11.0" height="11.0" rx="2.5" style="--d:0.77s"/>
+    <rect class="cell l4" x="541.0" y="81.0" width="11.0" height="11.0" rx="2.5" style="--d:0.792s"/>
     <rect class="cell l0" x="541.0" y="96.0" width="11.0" height="11.0" rx="2.5" style="--d:0.814s"/>
     <rect class="cell l0" x="541.0" y="111.0" width="11.0" height="11.0" rx="2.5" style="--d:0.836s"/>
     <rect class="cell l0" x="541.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:0.858s"/>
@@ -308,7 +308,7 @@
     <rect class="cell l0" x="556.0" y="111.0" width="11.0" height="11.0" rx="2.5" style="--d:0.858s"/>
     <rect class="cell l0" x="556.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:0.88s"/>
     <rect class="cell l0" x="571.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:0.77s"/>
-    <rect class="cell l0" x="571.0" y="51.0" width="11.0" height="11.0" rx="2.5" style="--d:0.792s"/>
+    <rect class="cell l1" x="571.0" y="51.0" width="11.0" height="11.0" rx="2.5" style="--d:0.792s"/>
     <rect class="cell l0" x="571.0" y="66.0" width="11.0" height="11.0" rx="2.5" style="--d:0.814s"/>
     <rect class="cell l0" x="571.0" y="81.0" width="11.0" height="11.0" rx="2.5" style="--d:0.836s"/>
     <rect class="cell l0" x="571.0" y="96.0" width="11.0" height="11.0" rx="2.5" style="--d:0.858s"/>
@@ -352,7 +352,7 @@
     <rect class="cell l0" x="661.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:0.902s"/>
     <rect class="cell l0" x="661.0" y="51.0" width="11.0" height="11.0" rx="2.5" style="--d:0.924s"/>
     <rect class="cell l0" x="661.0" y="66.0" width="11.0" height="11.0" rx="2.5" style="--d:0.946s"/>
-    <rect class="cell l0" x="661.0" y="81.0" width="11.0" height="11.0" rx="2.5" style="--d:0.968s"/>
+    <rect class="cell l1" x="661.0" y="81.0" width="11.0" height="11.0" rx="2.5" style="--d:0.968s"/>
     <rect class="cell l0" x="661.0" y="96.0" width="11.0" height="11.0" rx="2.5" style="--d:0.99s"/>
     <rect class="cell l0" x="661.0" y="111.0" width="11.0" height="11.0" rx="2.5" style="--d:1.012s"/>
     <rect class="cell l0" x="661.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:1.034s"/>
@@ -424,15 +424,16 @@
     <rect class="cell l0" x="811.0" y="66.0" width="11.0" height="11.0" rx="2.5" style="--d:1.166s"/>
     <rect class="cell l0" x="811.0" y="81.0" width="11.0" height="11.0" rx="2.5" style="--d:1.188s"/>
     <rect class="cell l0" x="811.0" y="96.0" width="11.0" height="11.0" rx="2.5" style="--d:1.21s"/>
-    <rect class="cell l4" x="811.0" y="111.0" width="11.0" height="11.0" rx="2.5" style="--d:1.232s"/>
+    <rect class="cell l1" x="811.0" y="111.0" width="11.0" height="11.0" rx="2.5" style="--d:1.232s"/>
     <rect class="cell l0" x="811.0" y="126.0" width="11.0" height="11.0" rx="2.5" style="--d:1.254s"/>
     <rect class="cell l0" x="826.0" y="36.0" width="11.0" height="11.0" rx="2.5" style="--d:1.144s"/>
     <rect class="cell l0" x="826.0" y="51.0" width="11.0" height="11.0" rx="2.5" style="--d:1.166s"/>
     <rect class="cell l0" x="826.0" y="66.0" width="11.0" height="11.0" rx="2.5" style="--d:1.188s"/>
     <rect class="cell l0" x="826.0" y="81.0" width="11.0" height="11.0" rx="2.5" style="--d:1.21s"/>
     <rect class="cell l0" x="826.0" y="96.0" width="11.0" height="11.0" rx="2.5" style="--d:1.232s"/>
+    <rect class="cell l0" x="826.0" y="111.0" width="11.0" height="11.0" rx="2.5" style="--d:1.254s"/>
   </g>
-  <text class="total" x="16.0" y="170.0">12 contributions in the last year</text>
+  <text class="total" x="16.0" y="170.0">42 contributions in the last year</text>
   <text x="727.6" y="170.0" text-anchor="end">Less</text>
     <rect class="l0" x="733.6" y="161.0" width="11.0" height="11.0" rx="2.5"/>
     <rect class="l1" x="748.6" y="161.0" width="11.0" height="11.0" rx="2.5"/>
